@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/trip.css">
+  <title>高雄旅遊網</title>
+</head>
+<body>
+  <header>
+    <!-- banner -->
+    <div class="banner">
+      <h1 class="banner-text">高雄旅遊資訊</h1>
+        <select name="" id="selectAreaId" class="select-area"></select>
+    </div>
+    <!-- 熱門區域 -->
+    <div class="popular-area-wrap">
+      <div class="popular-area">
+        <h2>熱門行政區</h2>
+        <div id="popularAreaId" class="btn-group">
+          <button>苓雅區</button>
+          <button>三民區</button>
+          <button>大樹區</button>
+          <button>美濃區</button>
+        </div>        
+      </div>
+      <a href="#zoneTextId" class="icon-down"></a>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <!-- 內容區塊 -->
+    <div class="container">
+      <h3 id="zoneTextId">高雄旅遊景點</h3>
+      <div id="tripInfoId" class="row"></div>
+      <div id="paginationId" class="pagination"></div>
+    </div>
+    <!-- 向上捲動 -->
+    <div class="scroll-top"><img src="img/btn_goTop.png" alt="scrollTop"></div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <h2>高雄旅遊網</h2>
+    <p>資料來源：高雄市政府 </p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/trip.js"></script>
+</body>
+</html>
